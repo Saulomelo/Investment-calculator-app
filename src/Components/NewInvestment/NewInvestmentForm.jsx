@@ -30,8 +30,6 @@ const NewInvestmentForm = (props) => {
     };
 
     props.onSubmitData(investmentData);
-
-    //lifting function here
   };
   const resetHandler = () => {
     setCurrentSavings("");

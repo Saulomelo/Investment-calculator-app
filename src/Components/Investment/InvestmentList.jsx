@@ -21,7 +21,7 @@ const InvestmentList = ({ items }) => {
                   year={investment.year}
                   totalSavings={formatCurrency(investment.savingsEndOfYear)}
                   interest={formatCurrency(investment.yearlyInterest)}
-                  totalInterest={formatCurrency(aux)} //totalInterest+=totalInterest
+                  totalInterest={formatCurrency(aux)}
                   investedCapital={formatCurrency(
                     investment.savingsEndOfYear - aux
                   )}
